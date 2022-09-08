@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Task Details</h1>
+<div mat-dialog-content>
+    <div class="form-group">
+        <label class="text-color">Task Name</label>
+        <p>{{savedata.taskname}}</p>
+    </div>
+    <div class="form-group">
+        <label class="text-color">Task Name</label>
+        <p>{{savedata.taskdescription}}</p>
+    </div>
+
+    <div class="form-group">
+        <label class="text-color">Sub Task checklist</label>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="form-group">
+        <label class="text-color">Attachments</label>
+        <p>{{savedata.attachment}}</p>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button class="btn btn-primary" style="margin-top: 3.4rem;" (click)="onNoClick()" >No Thanks</button>
+</div>
